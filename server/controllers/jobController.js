@@ -1,44 +1,39 @@
+// controllers/jobController.js
 
+import Job from "../models/job.js";
 
-//Get all job
+// GET: All visible jobs
+export const getJobs = async (req, res) => {
+  try {
+    const jobs = await Job.find({ visible: true }).populate({
+      path: 'companyId',
+      select: '-password'
+    });
 
-import Job from "../models/job.js"
+    res.status(200).json({ success: true, jobs });
+  } catch (error) {
+    console.error("Error fetching jobs:", error.message);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
 
-export const getJobs = async(req,res)=>{
-try {
-    const jobs = await Job.find({visible:true})
-    .populate({path:'companyId',select:'-password'})
+// GET: Job by ID
+export const getJobById = async (req, res) => {
+  try {
+    const { id } = req.params;
 
-    res.json({success:true,jobs})
-} catch (error) {
-    res.json({success:false,message:error.message})
-}
-}
+    const job = await Job.findById(id).populate({
+      path: 'companyId',
+      select: '-password'
+    });
 
-//Get a single job by id
+    if (!job) {
+      return res.status(404).json({ success: false, message: 'Job not found' });
+    }
 
-export const getJobById = async(req,res)=>{
-        try {
-            const {id} = req.params
-
-            const job = await Job.findById(id)
-            .populate({
-                path:'companyId',
-                select:'-password'
-            })
-
-            if (!job) {
-                return res.json({
-                    success:false,
-                    message:'Job not found'
-                })
-            }
-
-            res.json({
-                success:true,
-                job
-            })
-        } catch (error) {
-            res.json({success:false,message:error.message})
-        }
-}
+    res.status(200).json({ success: true, job });
+  } catch (error) {
+    console.error("Error fetching job by ID:", error.message);
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
