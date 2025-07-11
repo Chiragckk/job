@@ -20,7 +20,7 @@ A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.
 **Frontend:** React, Tailwind CSS, Axios  
 **Backend:** Node.js, Express  
 **Database:** MongoDB  
-**Authentication:** Clerk/Auth0/JWT (based on your implementation)  
+**Authentication:** Clerk/JWT
 ---
 
 ## ✨ Features
