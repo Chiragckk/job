@@ -37,3 +37,19 @@ A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.
 
 ## 🧩 Folder Structure (Brief)
 
+job-portal/
+│
+├── client/ # React Frontend
+│ └── src/
+│ └── components/
+│ └── pages/
+│ └── context/
+│ └── ...
+│
+├── server/ # Node.js Backend
+│ └── controllers/
+│ └── routes/
+│ └── models/
+│ └── middleware/
+│ └── ...
+
