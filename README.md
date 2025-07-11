@@ -9,10 +9,9 @@ A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.
 > Add screenshots or demo images of your app here:
 
 
-|-----------|--------------|------------------|
-| ![Home Page]<img width="1920" height="871" alt="Screenshot (165)" src="https://github.com/user-attachments/assets/fd42acd1-067a-47fa-bffb-e47b23d07c8c" />
-| ![Job Listings]<img width="1919" height="870" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/f81c3487-8a68-43d7-a3a6-63885a8a09b8" />
-| ![Admin Dashboard]<img width="1920" height="853" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/0f12939d-bb1e-4f22-b8f0-791245502ee9" />
+ ![Home Page]<img width="1920" height="871" alt="Screenshot (165)" src="https://github.com/user-attachments/assets/fd42acd1-067a-47fa-bffb-e47b23d07c8c" />
+ ![Admin Login]<img width="1919" height="870" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/f81c3487-8a68-43d7-a3a6-63885a8a09b8" />
+ ![Applied Jobs]<img width="1920" height="853" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/0f12939d-bb1e-4f22-b8f0-791245502ee9" />
  |
 ---
 
