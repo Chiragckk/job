@@ -10,18 +10,16 @@ A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.
 
 | Home Page | Job Listings | Admin Dashboard |
 |-----------|--------------|------------------|
-| ![Home Page](./screenshots/home.png) | ![Job Listings](./screenshots/jobs.png) | ![Admin Dashboard](./screenshots/dashboard.png) |
+| ![Home Page](C:\Users\chira\OneDrive\Desktop\readme\Screenshot (165).png) | ![Job Listings](C:\Users\chira\OneDrive\Desktop\readme\Screenshot (166).png) | ![Admin Dashboard]("C:\Users\chira\OneDrive\Desktop\readme\Screenshot (167).png") |
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend:** React, Tailwind CSS (optional), Axios  
+**Frontend:** React, Tailwind CSS, Axios  
 **Backend:** Node.js, Express  
 **Database:** MongoDB  
 **Authentication:** Clerk/Auth0/JWT (based on your implementation)  
-**Hosting:** Vercel (Frontend) + Render/Heroku (Backend)
-
 ---
 
 ## ✨ Features
