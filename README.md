@@ -1,4 +1,4 @@
-# 🚀 Job Portal - MERN Stack Application
+# 🚀 Insider Jobs - MERN Stack Application
 
 A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.js) stack. It allows companies to post job listings and candidates to search and apply for jobs. Authentication and authorization are implemented for both users and companies.
 
@@ -35,21 +35,21 @@ A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.
 
 ---
 
-## 🧩 Folder Structure (Brief)
 
-job-portal/
-│
-├── client/ # React Frontend
-│ └── src/
-│ └── components/
-│ └── pages/
-│ └── context/
-│ └── ...
-│
-├── server/ # Node.js Backend
-│ └── controllers/
-│ └── routes/
-│ └── models/
-│ └── middleware/
-│ └── ...
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- MongoDB instance (local or Atlas)
+- Clerk/Auth0 credentials (if applicable)
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/job-portal.git
+cd job-portal
+
 
