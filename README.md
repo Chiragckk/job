@@ -52,4 +52,19 @@ A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.
 git clone https://github.com/yourusername/job-portal.git
 cd job-portal
 
+Setup Backend
+cd server
+npm install
+# Create a .env file and add your variables:
+# MONGO_URI=your_mongodb_connection_string
+# JWT_SECRET=your_jwt_secret
+npm run dev
+
+Setup Frontend
+
+cd client
+npm install
+# Create a .env file and add API base URL if needed
+npm start
+
 
