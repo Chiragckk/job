@@ -1,4 +1,4 @@
-# 🚀 AspireWorks - MERN Stack Application
+# 🚀 InsiderJobs - MERN Stack Application
 
 A fully-featured Job Portal built using the MERN (MongoDB, Express, React, Node.js) stack. It allows companies to post job listings and candidates to search and apply for jobs. Authentication and authorization are implemented for both users and companies.
 
